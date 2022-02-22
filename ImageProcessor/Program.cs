@@ -15,8 +15,8 @@ namespace ImageProcessor
     {
         public static void Main(string[] args)
         {
-            IOperation operation = new Resize();
-            operation.PerformOperation(null);
+            //IOperation operation = new Resize();
+            //operation.PerformOperation(null);
             CreateHostBuilder(args).Build().Run();
             
         }

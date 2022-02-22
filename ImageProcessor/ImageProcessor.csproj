@@ -11,10 +11,14 @@
     <None Remove="Operations\" />
     <None Remove="Magick.NET-Q16-AnyCPU" />
     <None Remove="inputs\" />
+    <None Remove="Controllers\" />
+    <None Remove="Operations\Abstractions\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Operations\" />
     <Folder Include="inputs\" />
+    <Folder Include="Controllers\" />
+    <Folder Include="Operations\Abstractions\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Magick.NET-Q16-AnyCPU" Version="9.1.2" />
